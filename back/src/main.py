@@ -2,7 +2,7 @@ import json
 import sqlite3
 import datetime
 
-from db.db import PayTbl
+from db.tbl.pay_tbl import PayTbl
 from log.log import Log
 
 
