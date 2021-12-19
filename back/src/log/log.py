@@ -4,7 +4,7 @@ import logging.handlers
 
 
 class Log:
-    def __init__(self, config):
+    def __init__(self, config: dict):
         self.config = config
         self.logger = logging.getLogger('root')
         self._set_level()
